@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">PewPew</string>
+  <string name="action_sequels">Sequels</string>
+  <string name="sequel_title">Sequel Title</string>
+  <string name="episode7">The Force Awakens</string>
+  <string name="episode8">The Last Jedi</string>
+  <string name="episode9">The Rise of Skywalker</string>
+  <string name="episode_button">Episode button</string>
+  <string name="yoda">Yoda</string>
+  <string name="trooper">Trooper</string>
+  <string name="laser_fire">Laser Fire</string>
+  <string name="light_saber">Light Saber</string>
+  <string name="yoda_message">Shoot me you will not.</string>
+</resources>

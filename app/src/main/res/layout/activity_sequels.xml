@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/motionLayout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  app:layoutDescription="@xml/custom_menu_scene"
+  tools:context=".SequelsActivity">
+
+  <TextView
+    android:id="@+id/episodeName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/sequel_title"
+    android:textSize="24sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:text="@string/sequel_title" />
+
+  <ImageButton
+    android:id="@+id/episode7"
+    android:layout_width="@dimen/button_size"
+    android:layout_height="@dimen/button_size"
+    android:background="#00000000"
+    android:contentDescription="@string/episode7"
+    android:scaleType="fitCenter"
+    android:src="@drawable/episode7"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+  <ImageButton
+    android:id="@+id/episode8"
+    android:layout_width="@dimen/button_size"
+    android:layout_height="@dimen/button_size"
+    android:background="#00000000"
+    android:contentDescription="@string/episode8"
+    android:scaleType="fitCenter"
+    android:src="@drawable/episode8"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+  <ImageButton
+    android:id="@+id/episode9"
+    android:layout_width="@dimen/button_size"
+    android:layout_height="@dimen/button_size"
+    android:background="#00000000"
+    android:contentDescription="@string/episode9"
+    android:scaleType="fitCenter"
+    android:src="@drawable/episode9"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+  <ImageButton
+    android:id="@+id/episodeButton"
+    android:layout_width="@dimen/button_size"
+    android:layout_height="@dimen/button_size"
+    android:background="#00000000"
+    android:contentDescription="@string/episode_button"
+    android:scaleType="fitCenter"
+    android:src="@drawable/button"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
